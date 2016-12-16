@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Cuprum:400,400italic&subset=latin,cyrillic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#content:before,
+#content:after {
+  content:"";
+  display:table;
+
+}
+#content:after {
+  clear:both;
+
+}
+#content {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*СТИЛИ МАКЕТА*/
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #F8F8F8;
+}
+
+.wrapper-header {
+	width: 1170px;
+	height: 350px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+.wrapper-contain {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.wrapper-footer {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #373737;
+}
+
+/*БЛОК HEADER*/
+.header {
+	width: 100%;
+	height: 350px;
+	background-color: #abeafa;
+	background-image: url(img/header2__img.jpg);
+}
+
+.logo-header {
+	padding-left: 15px;
+	position: absolute;
+	background-image: url(img/logo.png);
+	width: 200px;
+	height: 200px;
+}
+/* ОБЁРТКА WRAPPER-CONTAIN. БЛОК MENU*/
+menu {
+	display: inline-block;
+}
+
+/*БЛОК NAV*/
+.nav {
+	margin-top: 50px;
+}
+
+/*БЛОК КОНТАКТЫ*/
+.main {
+	margin-top: 0px;
+}
+
+/*БЛОК NAVIGATION*/
+.nav-main {
+	margin: 10px 0 25px 10px;
+	display: inline-block;
+    font-size: 14px;
+    color: #A7A7A7;
+}
+
+/*БЛОК CONTENT*/
+.content-main {
+	width: 870px;
+}
+
+/*БЛОК FORM-MAIN*/
+.form-content {
+	width: 375px;
+    height: 524px;
+    display: inline-block;
+}
+
+.form-content__p_size {
+	display: inline-block;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.form-content__input {
+	width: 350px;
+	height: 25px;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+}
+
+.form-content__input_name {
+	margin-bottom: 40px; 
+}
+
+.form-content__input_email {
+	margin-bottom: 30px;
+}
+
+.form-content__input_company {
+	margin-bottom: 25px;
+}
+
+.form-content__input_subject {
+	margin-bottom: 30px;
+}
+
+.form-content__input_textarea {
+	width: 344px;
+    height: 150px;
+    resize: none;
+    border-color: transparent;
+}
+
+/*БЛОК ADDRESS-MAIN*/
+.address-main {
+	display: inline-block;
+	vertical-align: top;
+	border-left: 1px solid #E5E5E5;
+    padding-left: 25px;	
+}
+
+.address-main__h1 {
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.address-main__coordinate {
+	width: 185px;
+}
+
+.address-main__img {
+	width: 16px;
+    height: 20px;
+    background-image: url(img/coordinate.png);
+    background-size: contain;
+    float: left;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 5px;
+}
+
+.address-main__img_p {
+	font-size: 16px;
+	color: #777777;
+	padding-bottom: 20px;
+}
+
+.address-main__img_p1 {
+	padding-bottom: 10px;
+}
+
+/*БЛОК С КАРТИНКАМИ СONTACT*/
+.address-main__phone {
+	padding-bottom: 20px;
+}
+
+.address-main__img_phone {
+	display: inline-block;
+	width: 15px;
+	height: 14px;
+	background-image: url(img/phone.png);
+	float: left;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+
+.address-main__img_phone_p {
+	color: #333333;
+}
+
+.address-main__message {
+	padding-bottom: 30px;
+}
+
+.address-main__img_message {
+	display: inline-block;
+	width: 18px;
+	height: 15px;
+	background-image: url(img/message.png);
+	float: left;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+
+.address-main__img_message_a {
+	color: #333333;
+}
+
+/*БЛОК С КОНТЕНТОМ*/
+.address-main-content {
+	width: 300px;
+}
+
+.address-main-content_p {
+	color: #333333;
+}
+/*БЛОК SECTION*/
+.section-brand {
+	width: 870px;
+	float: right;
+	margin-top: 42px;
+}
+
+.section-brand__h1_1 {
+	font-size: 40px;
+}
+
+/*БЛОК С SOCAIL NETWORK*/
+.social-network {
+	width: 100%;
+    height: 150px;
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+/*БЛОК FOOTER*/
+.footer {
+	width: 100%;
+	height: 350px;
+	display: inline-block;
+	background-color: #373737;
+}
