@@ -480,6 +480,10 @@ body {
 	margin-bottom: 23px;
 }
 
+.nav-bottom__h2_margin_left {
+	margin-left: 3px;
+}
+
 .nav-bottom__list {
 	display: inline-block;
 	color: white;
@@ -507,13 +511,9 @@ body {
 	color: white;
 }
 
-.title__h4 {
-	margin-left: 3px;
-}
-
 .pay__p {
 	font-size: 12px;
-	margin-bottom: 25px;
+	padding-bottom: 22px;
 }
 
 .button-pay {
@@ -598,7 +598,13 @@ input {
 	padding-top: 7px;
 }
 
-.discription__p-phone:hover {
+.discription__a-phone {
+	padding-left: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.discription__a-phone:hover {
 	text-decoration: underline;
 	color: #00A5CF;
 }
@@ -608,12 +614,12 @@ input {
 	padding-top: 7px;
 }
 
-.discription__p-a {
-	text-decoration: unset;
+.discription__a-email {
 	color: #fff51f;
+	padding-left: 5px;
 }
 
-.discription__p-a:hover {
+.discription__a-email:hover {
 	text-decoration: underline;
 	font-size: 14px;
 }
@@ -629,7 +635,7 @@ input {
 	margin: 0 auto;
 }
 
-.copyright__small {
+.copyright__span {
 	padding-left: 6px;
 	padding-top: 18px;
 	font-size: 12px;
@@ -637,6 +643,6 @@ input {
 	color: #dad9d9;
 }
 
-.copyright__small:hover {
+.copyright__span:hover {
 	text-decoration: underline;
 }

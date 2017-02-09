@@ -39,47 +39,49 @@
 			<h2 class="sidebar__h2">NOW IS OPEN!</h2>
 		</section>
 	</aside>
-	<main class="main">
+	<main class="main main_margin_none">
 		<nav class="nav-main">
-			<li class="nav-main nav-main__li">Home</li>
-			<li class="nav-main nav-main__li_hover">Contact Us</li>
+			<ul class="nav-main__list">
+				<li class="nav-main nav-main_hover_color">Home</li>
+				<li class="nav-main nav-main_hover_color">Contact Us</li>
+			</ul>	
 		</nav>
-		<div class="content-main">
-				<!--<div class="form-content">-->
-			  		<form action="URL" class="form-content">
-			  			<p class="form-content__p_size">Full name*</p>
-			  			<input class="form-content__input form-content__input_name" type="search" name="name">
-			  			<p class="form-content__p_size">email*</p>
-			  			<input class="form-content__input form-content__input_email" type="search" name="e-mail">
-			  			<p class="form-content__p_size">company</p>
-			  			<input class="form-content__input form-content__input_company" type="search" name="company">
-			  			<p class="form-content__p_size">subject*</p>
-			  			<input class="form-content__input form-content__input_subject" type="search" name="subject">
-			  			<p class="form-content__p_size">message</p>
-			  			<textarea class="form-content__input_textarea"></textarea>
-					</form>
-				<!--</div>-->
-				<div class="address-main">
-					<h1 class="address-main__h1">Address</h1>
-					<div class="address-main__coordinate">
-						<div class="address-main__img"></div>
-						<p class="address-main__img_p address-main__img_p1">Ut interdum tristique est commodo pharetra.</p>
-						<p class="address-main__img_p">Lorem Ipsum is simply dummy text of the printing and over</p>
-					</div>
-					<div class="address-main__phone">
-						<div class="address-main__img_phone"></div>
-						<p class="address-main__img_phone_p">1-900-324-9876</p>
-					</div>
-					<div class="address-main__message">
-						<div class="address-main__img_message"></div>
-						<a href="#" class="address-main__img_message_a">info@surfhouse.com</a>
-					</div>
-					<div class="address-main-content">
-						<p class="address-main-content_p">If you have questions about your order or need any general information our customer service team will be happy to assist you.</p>
-					</div>
-				</div>
-			</div>
-		</main>
+		<section class="content-main">
+			<section class="form-box">
+			  	<form action="URL">
+			  		<p class="form-box__p">Full name*</p>
+			  		<input class="form-box__input form-box__input_margin_bottom_40" type="search" name="name">
+			  		<p class="form-box__p">email*</p>
+					<input class="form-box__input form-box__input_margin_bottom_30" type="search" name="e-mail">
+			  		<p class="form-box__p">company</p>
+			  		<input class="form-box__input form-box__input_margin_bottom_25" type="search" name="company">
+					<p class="form-box__p">subject*</p>
+			  		<input class="form-box__input form-box__input_margin_bottom_30" type="search" name="subject">
+			  		<p class="form-box__p">message</p>
+			  		<textarea class="textarea"></textarea>
+				</form>
+			</section>
+			<section class="address">
+				<h1 class="address__h1">Address</h1>
+				<article class="coordinate">
+					<img class="address__img address__img-coordinate" src="img/coordinate.png" alt="coordinate">
+					<p class="coordinate__p coordinate__p_padding_bottom">Ut interdum tristique est commodo pharetra.</p>
+					<p class="coordinate__p">Lorem Ipsum is simply dummy text of the printing and over</p>
+				</article>
+				<article class="phone">
+					<img class="address__img address__img-phone" src="img/phone.png" alt="phone">
+					<p><a class="phone__a" href="tel:19003249876">1-900-324-9876</a></p>
+				</article>
+				<article class="message">
+					<img class="address__img address__img-message" src="img/message.png" alt="message">
+					<a href="mailto:info@surfhouse.com" class="message__a">info@surfhouse.com</a>
+				</article>
+				<article class="article-content">
+					<p class="article-content__p">If you have questions about your order or need any general information our customer service team will be happy to assist you.</p>
+				</article>
+			</section>
+		</section>
+	</main>
 		<section class="section-brand">
 			<h1 class="section-brand__h1">BRAND BRAND BRAND BRAND BRAND BRAND</h1>
 		</section>
@@ -144,15 +146,15 @@
 			</section>
 			<section class="discription">
 				<h2 class="title__h4">About Us</h2>
-				<p class="discription__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+				<p class="discription__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 				<p class="discription__p-phone">Phone:1-999-342-9876</p>
-				<p class="discription__p-email">e-mail: <a href="#" class="discription__p-a">info@surfhouse.com</a></p>
+				<p class="discription__p-email">e-mail:<a href="#" class="discription__p-a">info@surfhouse.com</a></p>
 			</section>
 		</nav>
 	</div>
 	<div class="wraper-copyright">
 		<section class="copyright">
-			<small class="copyright__small">© 2014  SURFHOUSE. All rights reserved - Designed by theuncreativelab.com</small>
+			<span class="copyright__span">© 2014  SURFHOUSE. All rights reserved - Designed by theuncreativelab.com</span>
 		</section>
 	</div>
 </footer>	

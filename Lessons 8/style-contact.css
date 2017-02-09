@@ -89,16 +89,24 @@ menu {
 	margin-top: 50px;
 }
 /*БЛОК КОНТАКТЫ*/
-.main {
+.main_margin_none {
 	margin-top: 0px;
 }
 
 /*БЛОК NAVIGATION*/
 .nav-main {
+	display: inline-block;	
+}
+
+.nav-main__list {
 	margin: 10px 0 25px 10px;
-	display: inline-block;
     font-size: 14px;
     color: #A7A7A7;
+}
+
+.nav-main_hover_color:hover {
+	text-decoration: underline;
+	padding-left: 2px;
 }
 
 /*БЛОК CONTENT*/
@@ -107,43 +115,43 @@ menu {
 }
 
 /*БЛОК FORM-MAIN*/
-.form-content {
+.form-box {
 	width: 375px;
     height: 524px;
     display: inline-block;
 }
 
-.form-content__p_size {
+.form-box__p {
 	display: inline-block;
 	font-size: 18px;
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
 
-.form-content__input {
+.form-box__input {
 	width: 350px;
 	height: 25px;
 	margin-left: 0px;
 	background-color: #FFFFFF;
 }
 
-.form-content__input_name {
+.form-box__input_margin_bottom_40 {
 	margin-bottom: 40px; 
 }
 
-.form-content__input_email {
+.form-box__input_margin_bottom_30 {
 	margin-bottom: 30px;
 }
 
-.form-content__input_company {
+.form-box__input_margin_bottom_25 {
 	margin-bottom: 25px;
 }
 
-.form-content__input_subject {
+.form-box__input_margin_bottom_30 {
 	margin-bottom: 30px;
 }
 
-.form-content__input_textarea {
+.textarea {
 	width: 344px;
     height: 150px;
     resize: none;
@@ -151,94 +159,98 @@ menu {
 }
 
 /*БЛОК ADDRESS-MAIN*/
-.address-main {
+.address {
 	display: inline-block;
 	vertical-align: top;
 	border-left: 1px solid #E5E5E5;
     padding-left: 25px;	
 }
 
-.address-main__h1 {
+.address__h1 {
 	font-size: 18px;
 	padding-bottom: 20px;
 }
 
-.address-main__coordinate {
+.address__img {
+	float: left;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+/* Блок Coordinate */
+.coordinate {
 	width: 185px;
 }
 
-.address-main__img {
+.address__img-coordinate {
 	width: 16px;
     height: 20px;
-    background-image: url(img/coordinate.png);
-    background-size: contain;
-    float: left;
-    padding-right: 10px;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
-.address-main__img_p {
+.coordinate__p {
 	font-size: 16px;
 	color: #777777;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
-.address-main__img_p1 {
+.coordinate__p_padding_bottom {
 	padding-bottom: 10px;
 }
 
-/*БЛОК С КАРТИНКАМИ СONTACT*/
-.address-main__phone {
+/* Блок Phone */
+.phone {
 	padding-bottom: 20px;
 }
 
-.address-main__img_phone {
-	display: inline-block;
+.phone__a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.phone__a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.address__img-phone {
 	width: 15px;
 	height: 14px;
-	background-image: url(img/phone.png);
-	float: left;
-	padding-right: 10px;
-	background-repeat: no-repeat;
 }
 
-.address-main__img_phone_p {
-	color: #333333;
-}
-
-.address-main__message {
+/* Блок Message */
+.message {
 	padding-bottom: 30px;
 }
 
-.address-main__img_message {
-	display: inline-block;
-	width: 18px;
-	height: 15px;
-	background-image: url(img/message.png);
-	float: left;
-	padding-right: 10px;
-	background-repeat: no-repeat;
-}
-
-.address-main__img_message_a {
+.message__a {
 	color: #333333;
 }
 
-/*БЛОК С КОНТЕНТОМ*/
-.address-main-content {
+.message__a:hover {
+	color: blue;
+}
+
+.address__img-message {
+	width: 18px;
+	height: 15px;
+}
+
+/*БЛОК Content*/
+.article-content {
 	width: 300px;
 }
 
-.address-main-content_p {
-	color: #333333;
+.article-content__p {
+	color: #abeafa;
 }
+
 /*БЛОК SECTION*/
 .section-brand {
 	width: 870px;
 	float: right;
-	margin-top: 42px;
+	margin-top: 77px;
 }
 
 .section-brand__h1_1 {
