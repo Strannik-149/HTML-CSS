@@ -70,8 +70,17 @@ body {
 	background-color: #F8F8F8;
 }
 
+/* ОЧИСТКА ПОТОКА */
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* ОЧИСТКА ПОТОКА */
+
 .wrapper-header {
-	width: 1170px;
 	height: 720px;
 	margin: 0 auto;
 	background-color: #ABEAFA;
@@ -99,7 +108,46 @@ body {
 	width: 200px;
 	height: 200px;
 	display: block;
-	padding-left: 15px;
+	margin-left: 90px;
+
+}
+
+/* БЛОК header-sociate*/
+.header-sociate {
+	display: inline-block;
+    float: right;
+    position: relative;
+    top: -150px;
+	right: 103px;
+}
+
+.header-sociate__img {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 5px;
+}
+
+.header-sociate__img:hover {
+	background-size: 95%;
+}
+
+.img_vk {
+	background-image: url(img/sociate/vk.png);
+}
+
+.img_rambler {
+	background-image: url(img/sociate/rambler.png);
+}
+
+.img_facebook {
+	background-image: url(img/sociate/facebook.png);	
+}
+
+.img_google {
+	background-image: url(img/sociate/google.png);		
 }
 
 /* КОНТЕЙНЕР header-title */
@@ -108,7 +156,7 @@ body {
 	color: #fff51f;
 	position: relative;
 	margin-top: 240px;
-	margin-right: 108px;
+	margin-right: -103px;
 	float: right;
 }
 
@@ -148,6 +196,7 @@ body {
 	height: 300px;
 	background-color: #fff51f;
 	margin-top: 155px;
+	margin-left: 90px;
 	display: block;
 }
 
